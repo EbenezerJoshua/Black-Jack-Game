@@ -1,5 +1,5 @@
 let player = {
-    name: "Per",
+    name: "Ebenezer",
     chips: 200
 }
 
@@ -56,7 +56,7 @@ function renderGame() {
 
 
 function newCard() {
-    if (isAlive === true && hasBlackJack === false) {
+    if (isAlive == true && hasBlackJack == false) {
         let card = getRandomCard()
         sum += card
         cards.push(card)
